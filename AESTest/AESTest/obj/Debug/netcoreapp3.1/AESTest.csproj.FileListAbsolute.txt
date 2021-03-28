@@ -1,0 +1,13 @@
+C:\Users\DOM\source\repos\AESTest\AESTest\bin\Debug\netcoreapp3.1\AESTest.exe
+C:\Users\DOM\source\repos\AESTest\AESTest\bin\Debug\netcoreapp3.1\AESTest.deps.json
+C:\Users\DOM\source\repos\AESTest\AESTest\bin\Debug\netcoreapp3.1\AESTest.runtimeconfig.json
+C:\Users\DOM\source\repos\AESTest\AESTest\bin\Debug\netcoreapp3.1\AESTest.runtimeconfig.dev.json
+C:\Users\DOM\source\repos\AESTest\AESTest\bin\Debug\netcoreapp3.1\AESTest.dll
+C:\Users\DOM\source\repos\AESTest\AESTest\bin\Debug\netcoreapp3.1\AESTest.pdb
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.csprojAssemblyReference.cache
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.AssemblyInfoInputs.cache
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.AssemblyInfo.cs
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.csproj.CoreCompileInputs.cache
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.dll
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.pdb
+C:\Users\DOM\source\repos\AESTest\AESTest\obj\Debug\netcoreapp3.1\AESTest.genruntimeconfig.cache
