@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Xxl5aVEBLAszwlIVNMvShZ836c6AbKCBwKQQOk7GU4LSrfqkaYHoUg/icyX4AKoYuJDn9K1xeLrKKOy8VdDUdQ==",
+  "dgSpecHash": "PfvHT+XWPoYCMzyd4coykyTRRorux7CmnZ0F6x9PQqc99lZyyJKQqiNH0lZwqWciCcVZf71bCiPDJuRT505APg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DOM\\source\\repos\\AESTest\\AesEncryptor\\AesEncryptor.csproj",
+  "projectFilePath": "C:\\Users\\Dom\\Desktop\\Репозитории\\MyAesEncrypter\\AESTest\\AesEncryptor\\Encryptors.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DOM\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\DOM\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Dom\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Dom\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

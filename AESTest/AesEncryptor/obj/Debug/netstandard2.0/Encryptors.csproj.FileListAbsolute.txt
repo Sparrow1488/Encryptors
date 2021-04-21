@@ -1,0 +1,8 @@
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\obj\Debug\netstandard2.0\Encryptors.AssemblyInfoInputs.cache
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\obj\Debug\netstandard2.0\Encryptors.AssemblyInfo.cs
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\obj\Debug\netstandard2.0\Encryptors.csproj.CoreCompileInputs.cache
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\bin\Debug\netstandard2.0\Encryptors.deps.json
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\bin\Debug\netstandard2.0\Encryptors.dll
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\bin\Debug\netstandard2.0\Encryptors.pdb
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\obj\Debug\netstandard2.0\Encryptors.dll
+C:\Users\Dom\Desktop\Репозитории\MyAesEncrypter\AESTest\AesEncryptor\obj\Debug\netstandard2.0\Encryptors.pdb
