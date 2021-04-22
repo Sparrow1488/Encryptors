@@ -1,50 +1,94 @@
-﻿using Encryptors;
-using System.IO;
+﻿using Encryptors.Rsa;
+using Encryptors.RSA.Exceptions;
+using System;
 using System.Security.Cryptography;
-using System.Xml.Serialization;
+using System.Text;
 
 namespace Encryptors.Rsa
 {
-    //    public class RsaEncryptor : IEncryptor
+    //public class RsaEncryptor : IEncryptor
+    //{
+    //    public RsaEncryptor(RSAParameters publicKey, RSAParameters privateKey)
     //    {
-    //        public static byte[] EncryptData(byte[] data, RSAParameters publicKey)
+    //        PublicKey = publicKey;
+    //        PrivateKey = privateKey;
+    //        //KeyLenght = keySize;
+    //        CSP = new RSACryptoServiceProvider(KeyLenght);
+    //    }
+    //    public RsaEncryptor(string xmlPublicKey, string xmlPrivateKey, int keySize)
+    //    {
+    //        RsaConverter converter = new RsaConverter();
+    //        PublicKey = converter.AsParameters(xmlPublicKey);
+    //        PrivateKey = converter.AsParameters(xmlPrivateKey);
+    //        KeyLenght = keySize;
+    //        CSP = new RSACryptoServiceProvider(KeyLenght);
+    //    }
+    //    public RsaEncryptor()
+    //    {
+    //        CSP = new RSACryptoServiceProvider(KeyLenght);
+    //        PrivateKey = CSP.ExportParameters(true);
+    //        PublicKey = CSP.ExportParameters(false);
+    //    }
+
+    //    public RSAParameters PublicKey { get; private set; }
+    //    public RSAParameters PrivateKey { get; private set; }
+    //    public int KeyLenght { get; private set; } = 2048;
+    //    private RSACryptoServiceProvider CSP;
+
+    //    /// <summary>
+    //    /// Дешифрует данные по заданным при инициализации ключам
+    //    /// </summary>
+    //    /// <param name="data"></param>
+    //    /// <exception cref="DecryptException">Ошибка дешифрования данных</exception>
+    //    /// <returns></returns>
+    //    public byte[] Decrypt(byte[] data)
+    //    {
+    //        if (CanDecrypt(data))
     //        {
-    //            var csp = new RSACryptoServiceProvider();
-    //            csp.ImportParameters(publicKey);
-    //            var _encryptData = csp.Encrypt(data, false);
-    //            return _encryptData;
-    //        }
-    //        public static byte[] DecryptData(byte[] data, RSAParameters privateKey)
-    //        {
-    //            var csp = new RSACryptoServiceProvider();
-    //            csp.ImportParameters(privateKey);
-    //            var _decryptData = csp.Decrypt(data, false);
+    //            CSP.ImportParameters(PrivateKey);
+    //            var _decryptData = CSP.Decrypt(data, false);
     //            return _decryptData;
     //        }
-    //        public static string RsaToString(RSAParameters key)
-    //        {
-    //            var sw = new StringWriter();
-    //            var xmlSerializer = new XmlSerializer(typeof(RSAParameters));
-    //            xmlSerializer.Serialize(sw, key);
-    //            string stringKey = sw.ToString();
-    //            return stringKey;
-    //        }
-    //        public static RSAParameters StringToRsa(string key)
-    //        {
-    //            var sr = new StringReader(key);
-    //            var xmlDeserializer = new XmlSerializer(typeof(RSAParameters));
-    //            var rsaKey = (RSAParameters)xmlDeserializer.Deserialize(sr);
-    //            return rsaKey;
-    //        }
+    //        else throw new DecryptException("Ошибка дешифровки данных. Возможно, Вы использовали невалидные ключи");
+    //    }
 
-    //        public byte[] Encrypt()
+    //    public byte[] Encrypt(byte[] data)
+    //    {
+    //        try
     //        {
-    //            throw new System.NotImplementedException();
+    //            return DefaultEncrypt(data);
     //        }
-
-    //        public byte[] Decrypt()
+    //        catch (Exception) { }
+    //    }
+    //    private bool CanDecrypt()
+    //    {
+    //        try
     //        {
-    //            throw new System.NotImplementedException();
+    //            byte[] testEnc = DefaultEncrypt(Encoding.UTF8.GetBytes("Че"));
+    //            DefaultDecrypt(testEnc);
+    //            return true;
     //        }
-    //    //}
+    //        catch (Exception) { return false; }
+    //    }
+    //    private bool CanEncrypt(byte[] data)
+    //    {
+    //        try
+    //        {
+    //            byte[] testDec = DefaultDecrypt(Encoding.UTF8.GetBytes("Че"));
+    //            DefaultEncrypt(data);
+    //            return true;
+    //        }
+    //        catch (Exception) { return false; }
+    //    }
+    //    private byte[] DefaultDecrypt(byte[] encData)
+    //    {
+    //        CSP.ImportParameters(PrivateKey);
+    //        return CSP.Decrypt(encData, false);
+    //    }
+    //    private byte[] DefaultEncrypt(byte[] data)
+    //    {
+    //        CSP.ImportParameters(PublicKey);
+    //        return CSP.Encrypt(data, false);
+    //    }
+    //}
 }
