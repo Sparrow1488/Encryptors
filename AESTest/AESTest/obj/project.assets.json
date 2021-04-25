@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Encryptors/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Encryptors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Encryptors.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Encryptors/1.0.0": {
+      "type": "project",
+      "path": "../AesEncryptor/Encryptors.csproj",
+      "msbuildProject": "../AesEncryptor/Encryptors.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Encryptors >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\DOM\\.nuget\\packages\\": {}
+    "C:\\Users\\Dom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DOM\\Desktop\\ИЛЬЯ\\HTML\\C#\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
+      "projectUniqueName": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
       "projectName": "AESTest",
-      "projectPath": "C:\\Users\\DOM\\Desktop\\ИЛЬЯ\\HTML\\C#\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
-      "packagesPath": "C:\\Users\\DOM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DOM\\Desktop\\ИЛЬЯ\\HTML\\C#\\Encryptors\\AESTest\\AESTest\\obj\\",
+      "projectPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
+      "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AESTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj": {
+              "projectPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -60,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
