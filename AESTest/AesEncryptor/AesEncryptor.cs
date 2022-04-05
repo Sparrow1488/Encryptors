@@ -1,9 +1,9 @@
-﻿using Encryptors;
+﻿using Encryptors.Abstractions;
 using System;
 using System.IO;
 using System.Security.Cryptography;
 
-namespace Encryptors.Aes
+namespace Encryptors
 {
     public class AesEncryptor : IEncryptor
     {

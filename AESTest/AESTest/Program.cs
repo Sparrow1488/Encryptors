@@ -1,9 +1,6 @@
-﻿using Encryptors.Aes;
-using Encryptors.Rsa;
+﻿using Encryptors;
 using System;
 using System.IO;
-using System.Security.Cryptography;
-using System.Text;
 class ManagedAesSample
 {
     public static string _path = @"yourPath";

@@ -1,10 +1,6 @@
-﻿using Encryptors.Rsa;
-using Encryptors.RSA.Exceptions;
-using System;
-using System.Security.Cryptography;
-using System.Text;
+﻿using System.Security.Cryptography;
 
-namespace Encryptors.Rsa
+namespace Encryptors
 {
     public class RsaEncryptor : IEncryptor
     {

@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj",
+      "projectUniqueName": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj",
       "projectName": "Encryptors",
-      "projectPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj",
+      "projectPath": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj",
       "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\obj\\",
+      "outputPath": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AesEncryptor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",

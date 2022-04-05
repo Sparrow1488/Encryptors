@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Xml.Serialization;
 
-namespace Encryptors.Rsa
+namespace Encryptors
 {
     public class RsaConverter
     {

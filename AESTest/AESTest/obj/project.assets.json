@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
+      "projectUniqueName": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
       "projectName": "AESTest",
-      "projectPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
+      "projectPath": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AESTest\\AESTest.csproj",
       "packagesPath": "C:\\Users\\Dom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AESTest\\obj\\",
+      "outputPath": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AESTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dom\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj": {
-              "projectPath": "C:\\Users\\Dom\\Desktop\\Репозитории\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj"
+            "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj": {
+              "projectPath": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\AesEncryptor\\Encryptors.csproj"
             }
           }
         }
