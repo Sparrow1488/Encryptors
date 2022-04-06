@@ -1,4 +1,5 @@
 ﻿using Encryptors.Abstractions;
+using Encryptors.Exceptions;
 using System.IO;
 using System.Security.Cryptography;
 
@@ -8,8 +9,8 @@ namespace Encryptors
     {
         private AesKeysBag _aesKeyBag;
         private AesManaged _managed = new AesManaged();
-        public int KeySize => _managed.KeySize;
 
+        public int KeySize => _managed.KeySize;
         public AesKeysBag GetKeys() => _aesKeyBag;
 
         public AesKeysBag GenerateKeysBag()
@@ -22,6 +23,7 @@ namespace Encryptors
 
         public byte[] Decrypt(byte[] data)
         {
+            ThrowIfKeysAreEmpty();
             byte[] result;
             using (AesManaged aes = new AesManaged())
             {
@@ -37,6 +39,7 @@ namespace Encryptors
 
         public byte[] Encrypt(byte[] data)
         {
+            ThrowIfKeysAreEmpty();
             byte[] encrypted = new byte[0];
             using (AesManaged aes = new AesManaged())
             {
@@ -65,6 +68,12 @@ namespace Encryptors
         {
             _managed.GenerateIV();
             return _managed.IV;
+        }
+
+        private void ThrowIfKeysAreEmpty()
+        {
+            if (_aesKeyBag == null || _aesKeyBag.Key == null || _aesKeyBag.IV == null)
+                throw new KeysNotSetException();
         }
     }
 }
