@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Encryptors.Examples.CryptographerPipelineBuilder/1.0.0": {
+        "dependencies": {
+          "Encryptors": "1.0.0"
+        },
+        "runtime": {
+          "Encryptors.Examples.CryptographerPipelineBuilder.dll": {}
+        }
+      },
+      "Encryptors/1.0.0": {
+        "runtime": {
+          "Encryptors.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Encryptors.Examples.CryptographerPipelineBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Encryptors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

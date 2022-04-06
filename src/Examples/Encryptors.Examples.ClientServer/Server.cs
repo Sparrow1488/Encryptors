@@ -2,7 +2,7 @@
 {
     internal static class Server
     {
-        public readonly static NewRsaEncryptor RsaEncryptor = new NewRsaEncryptor();
-        public readonly static NewAesEncryptor AesEncryptor = new NewAesEncryptor();
+        public readonly static RsaEncryptor RsaEncryptor = new RsaEncryptor();
+        public readonly static AesEncryptor AesEncryptor = new AesEncryptor();
     }
 }

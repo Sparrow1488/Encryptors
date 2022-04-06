@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryptors.Examples.ClientS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encryptors.Examples.Cryptographer", "Examples\Encryptors.Examples.Cryptographer\Encryptors.Examples.Cryptographer.csproj", "{76DC63FE-1EDF-4063-A9CB-9B2F515BE3CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptors.Examples.CryptographerPipelineBuilder", "Examples\Encryptors.Examples.CryptographerPipelineBuilder\Encryptors.Examples.CryptographerPipelineBuilder.csproj", "{02CB9630-853F-49C5-9C38-238965A3FE22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{76DC63FE-1EDF-4063-A9CB-9B2F515BE3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76DC63FE-1EDF-4063-A9CB-9B2F515BE3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76DC63FE-1EDF-4063-A9CB-9B2F515BE3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CB9630-853F-49C5-9C38-238965A3FE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CB9630-853F-49C5-9C38-238965A3FE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CB9630-853F-49C5-9C38-238965A3FE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CB9630-853F-49C5-9C38-238965A3FE22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

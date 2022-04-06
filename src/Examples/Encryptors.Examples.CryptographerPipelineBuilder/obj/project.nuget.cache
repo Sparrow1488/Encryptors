@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jrplrL0lAxsJNjLmf/2QFy9ORkVxLH3Uzj8SP/jncAJgHsnjCW6ibhAy14mXL6meI9qDN/leiOiZBSiLJQ8SiQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Илья\\Repositories\\Encryptors\\src\\Examples\\Encryptors.Examples.CryptographerPipelineBuilder\\Encryptors.Examples.CryptographerPipelineBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.exe
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.deps.json
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.runtimeconfig.json
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.runtimeconfig.dev.json
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.dll
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.pdb
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.dll
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\bin\Debug\netcoreapp3.1\Encryptors.pdb
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.csproj.AssemblyReference.cache
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.AssemblyInfoInputs.cache
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.AssemblyInfo.cs
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.csproj.CoreCompileInputs.cache
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.csproj.CopyComplete
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.dll
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.pdb
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Examples\Encryptors.Examples.CryptographerPipelineBuilder\obj\Debug\netcoreapp3.1\Encryptors.Examples.CryptographerPipelineBuilder.genruntimeconfig.cache

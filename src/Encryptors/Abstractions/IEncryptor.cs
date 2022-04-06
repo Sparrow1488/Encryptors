@@ -1,9 +1,11 @@
-﻿namespace Encryptors.Abstractions
+﻿using Encryptors.Enums;
+
+namespace Encryptors.Abstractions
 {
     public interface IEncryptor<TKeys> : IEncryptor
         where TKeys : KeysBag
     {
-        TKeys GenerateKeysBag();
+        new TKeys GenerateKeysBag();
         void UseKeys(TKeys keys);
         TKeys GetKeys();
     }
@@ -13,5 +15,7 @@
         byte[] Encrypt(byte[] data);
         byte[] Decrypt(byte[] data);
         void UseKeys(KeysBag keys);
+        EncryptorType GetEncryptorType();
+        void GenerateKeysBag();
     }
 }

@@ -32,3 +32,4 @@ C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\
 C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netstandard2.0\Encryptors.csproj.CoreCompileInputs.cache
 C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netstandard2.0\Encryptors.dll
 C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netstandard2.0\Encryptors.pdb
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netstandard2.0\Encryptors.csproj.AssemblyReference.cache
