@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "29999216-9f48-4885-a121-cee96fb5c64b": {
+      "ProjectGuid": "29999216-9f48-4885-a121-cee96fb5c64b",
+      "DisplayName": "AESTest",
+      "ColorIndex": 0
+    },
+    "14d9d307-da7d-4178-b2ae-f08e718b8d6c": {
+      "ProjectGuid": "14d9d307-da7d-4178-b2ae-f08e718b8d6c",
+      "DisplayName": "Encryptors.Examples.Cryptographer",
+      "ColorIndex": 1
+    },
+    "938dcea7-2cbd-4c93-a49a-a0014f240da8": {
+      "ProjectGuid": "938dcea7-2cbd-4c93-a49a-a0014f240da8",
+      "DisplayName": "Encryptors",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "25a56768-f6c5-4248-8336-84e6480a9ac9": {
+      "ProjectGuid": "25a56768-f6c5-4248-8336-84e6480a9ac9",
+      "DisplayName": "Encryptors.Examples.ClientServer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -32,8 +32,7 @@ namespace Encryptors.Converters
 
         private void ThrowIfArgumentNullException<TArg>(TArg argument)
         {
-            var stringifyArgument = argument as string;
-            if (argument == null || string.IsNullOrWhiteSpace(stringifyArgument))
+            if (argument == null)
                 throw new ArgumentNullException();
         }
     }

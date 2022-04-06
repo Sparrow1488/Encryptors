@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LOn72+g5vO6vu2DoFEKZghSEGHBOEsdypmHNuo0n8xPgRsKcjUywN8ZVb4jHKzIxG/TJH2A2TBPkzwSLNCLcrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Илья\\Repositories\\Encryptors\\src\\Examples\\Encryptors.Examples.Cryptographer\\Encryptors.Examples.Cryptographer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}
