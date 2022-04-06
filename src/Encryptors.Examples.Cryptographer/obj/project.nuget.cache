@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ju71OOliI7iKAAWq1fH8xOIfDBKA3kCpV1DoLijXYuubmS6CiDqTYdJyyXE2bpgPBUNnLEYvqyrzh/bTFV/uhQ==",
+  "dgSpecHash": "OdNCDPR4npw9oFy0SDQVXcUkgAhbazCT7aQ49ZERk64MbC0YbrTgNOXWBh4xGllOkdRR7A91+0np9o44l4WJHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dom\\Desktop\\GitRepositories\\Encryptors\\AESTest\\Encryptors.Examples.Cryptographer\\Encryptors.Examples.Cryptographer.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Илья\\Repositories\\Encryptors\\src\\Encryptors.Examples.Cryptographer\\Encryptors.Examples.Cryptographer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+  ],
   "logs": []
 }

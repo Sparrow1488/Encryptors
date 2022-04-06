@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WNy2OW10qT6vI7clUAiSqDEL28c0yqesNdX0kuUBSahXO6FfeYg4hsHkRYv1BoOqY99V1ux1MRG7EqGN5BouOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aleks\\OneDrive\\Desktop\\Илья\\Repositories\\Encryptors\\src\\Encryptors\\Encryptors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleks\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\aleks\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

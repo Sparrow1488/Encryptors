@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AesEncryptor\Encryptors.csproj" />
+    <ProjectReference Include="..\Encryptors\Encryptors.csproj" />
   </ItemGroup>
 
 </Project>
