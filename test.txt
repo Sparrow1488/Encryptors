@@ -1,0 +1,23 @@
+1. Отправить публичный pRSA клиенту
+	2. Клиент сгенерирует AES
+	3. Зашифрует AES используя pRSA
+	4. Отправит мне
+5. Я получаю и дешифрую AES используя prRSA
+6. Шифрую определенную информацию
+7. Отправляю клиенту эту информацию
+	8. Клиент получает и дешифрует, используя AES
+
+// конвеер для обработки на стороне сервера (1, 5, 6, 7)
+_cryptographer.GetPipeline()
+		.ForSend() // я в итоге должен шифровать
+		.GetMyPublicKey(Action<publicKey>) // получить public RSA
+		.DecryptSymmetricKey() // дешифровать полученный AES от клиента
+		.Run(Action<encryptedData>) // шифрую определенную информацию
+		// or
+		.GetResult(); // отправляю
+
+// конвеер для обработки на стороне клиента (2, 3, 4, 8)
+_cryptographer.GetPipeline()
+		.ForGet() // я в итоге должен получать
+		.EncryptMySymmetricKey(publicServerRsa)
+		.RunBack(Action<encryptedData>);
