@@ -7,14 +7,17 @@ namespace Encryptors.Abstractions
         internal Cryptographer() { }
 
         public CryptographerPipeline Pipeline { get; private set; }
+        public CryptographerPipelineBuilder Builder { get; private set; }
 
         private CryptoResult _result;
 
         public static Cryptographer New()
         {
             var pipe = new CryptographerPipeline();
+            var builder = new CryptographerPipelineBuilder(pipe);
             var crypto = new Cryptographer() {
-                Pipeline = pipe
+                Pipeline = pipe,
+                Builder = builder
             };
             return crypto;
         }
@@ -41,5 +44,6 @@ namespace Encryptors.Abstractions
             _result;
 
         public CryptographerPipeline GetPipeline() => Pipeline;
+        public CryptographerPipelineBuilder GetBuilder() => Builder;
     }
 }

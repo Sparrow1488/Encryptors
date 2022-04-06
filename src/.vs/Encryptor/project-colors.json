@@ -25,7 +25,22 @@
       "ProjectGuid": "25a56768-f6c5-4248-8336-84e6480a9ac9",
       "DisplayName": "Encryptors.Examples.ClientServer",
       "ColorIndex": 3
+    },
+    "364ab535-51e1-410c-aece-67502f6b9b8e": {
+      "ProjectGuid": "364ab535-51e1-410c-aece-67502f6b9b8e",
+      "DisplayName": "Encryptors.Examples.ClientServer",
+      "ColorIndex": 4
+    },
+    "76dc63fe-1edf-4063-a9cb-9b2f515be3ca": {
+      "ProjectGuid": "76dc63fe-1edf-4063-a9cb-9b2f515be3ca",
+      "DisplayName": "Encryptors.Examples.Cryptographer",
+      "ColorIndex": 5
+    },
+    "02cb9630-853f-49c5-9c38-238965a3fe22": {
+      "ProjectGuid": "02cb9630-853f-49c5-9c38-238965a3fe22",
+      "DisplayName": "Encryptors.Examples.CryptographerPipelineBuilder",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 7
 }

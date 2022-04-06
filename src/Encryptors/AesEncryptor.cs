@@ -1,11 +1,12 @@
 ﻿using Encryptors.Abstractions;
+using Encryptors.Enums;
 using Encryptors.Exceptions;
 using System.IO;
 using System.Security.Cryptography;
 
 namespace Encryptors
 {
-    public class NewAesEncryptor : IEncryptor<AesKeysBag>
+    public class AesEncryptor : ISymmetricEncryptor<AesKeysBag>
     {
         private AesKeysBag _aesKeyBag;
         private AesManaged _managed = new AesManaged();
@@ -75,5 +76,8 @@ namespace Encryptors
             if (_aesKeyBag == null || _aesKeyBag.Key == null || _aesKeyBag.IV == null)
                 throw new KeysNotSetException();
         }
+
+        public EncryptorType GetEncryptorType() => EncryptorType.Symmetric;
+        void IEncryptor.GenerateKeysBag() => GenerateKeysBag();
     }
 }

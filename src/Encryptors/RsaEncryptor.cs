@@ -1,11 +1,12 @@
 ﻿using Encryptors.Abstractions;
 using Encryptors.Converters;
+using Encryptors.Enums;
 using System.Security.Cryptography;
 using System.Text;
 
 namespace Encryptors
 {
-    public class NewRsaEncryptor : IEncryptor<RsaKeysBag>
+    public class RsaEncryptor : IAsymmetricEncryptor<RsaKeysBag>
     {
         private readonly RsaConverter _rsaConverter = new RsaConverter();
         private readonly RSACryptoServiceProvider _rsaCryptoService = new RSACryptoServiceProvider();
@@ -44,5 +45,10 @@ namespace Encryptors
 
         public void UseKeys(KeysBag keys) =>
             UseKeys((RsaKeysBag)keys);
+
+        public byte[] GetPublicKey() => _rsaKeysBag.PublicKey;
+        public byte[] GetPrivateKey() => _rsaKeysBag.PrivateKey;
+        public EncryptorType GetEncryptorType() => EncryptorType.Asymmetric;
+        void IEncryptor.GenerateKeysBag() => GenerateKeysBag();
     }
 }

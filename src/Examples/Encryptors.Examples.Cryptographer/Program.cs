@@ -36,14 +36,14 @@ namespace Encryptors.Examples.Cryptographers
 
         private static IEncryptor CreateAesEncryptor()
         {
-            var aes256Enc = new NewAesEncryptor();
+            var aes256Enc = new AesEncryptor();
             aes256Enc.GenerateKeysBag();
             return aes256Enc;
         }
 
         private static IEncryptor CreateRsaEncryptor()
         {
-            var rsa256Enc = new NewRsaEncryptor();
+            var rsa256Enc = new RsaEncryptor();
             rsa256Enc.GenerateKeysBag();
             return rsa256Enc;
         }
