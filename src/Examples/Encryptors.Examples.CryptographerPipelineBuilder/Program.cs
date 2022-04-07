@@ -19,12 +19,23 @@ namespace Encryptors.Examples.CryptographerPipelineBuilder
         {
             InitAesEncryptor();
             InitRsaEncryptor();
+            SenderWorks();
+        }
+
+        private static void GetterWorks()
+        {
+
+        }
+
+        private static void SenderWorks()
+        {
             var publicKeyWhatISent = new byte[0];
             var algorithm = _cryptographer.GetBuilder()
                                          .ForSend(_aesEncryptor, _rsaEncryptor)
                                          .GetMyPublicKey(key => publicKeyWhatISent = key);
 
-            // [client] Send public key
+            // Send my public key
+
             EncryptAesKeys(); // [client] encrypt using my public key (RSA)
             // [client] Get encrypted aes key
 

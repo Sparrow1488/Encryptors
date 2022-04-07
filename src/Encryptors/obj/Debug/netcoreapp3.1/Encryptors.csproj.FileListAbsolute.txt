@@ -1,0 +1,9 @@
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\bin\Debug\netcoreapp3.1\Encryptors.deps.json
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\bin\Debug\netcoreapp3.1\Encryptors.dll
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\bin\Debug\netcoreapp3.1\Encryptors.pdb
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netcoreapp3.1\Encryptors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netcoreapp3.1\Encryptors.AssemblyInfoInputs.cache
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netcoreapp3.1\Encryptors.AssemblyInfo.cs
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netcoreapp3.1\Encryptors.csproj.CoreCompileInputs.cache
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netcoreapp3.1\Encryptors.dll
+C:\Users\aleks\OneDrive\Desktop\Илья\Repositories\Encryptors\src\Encryptors\obj\Debug\netcoreapp3.1\Encryptors.pdb
