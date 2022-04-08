@@ -1,5 +1,4 @@
-﻿using Encryptors.Extended;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Encryptors.Abstractions
 {
@@ -12,18 +11,6 @@ namespace Encryptors.Abstractions
         private readonly IList<IEncryptor> _usedEncryptors = new List<IEncryptor>();
 
         public IEnumerable<IEncryptor> UsedEncryptors => _usedEncryptors;
-
-        public PipelineForSendAlgorithm ForSend<TSymmetric, TAsymmetric>(TSymmetric symmetric, TAsymmetric asymmetric)
-            where TSymmetric : ISymmetricEncryptor 
-                where TAsymmetric : IAsymmetricEncryptor
-        {
-            symmetric.GenerateKeysBag();
-            asymmetric.GenerateKeysBag();
-            _usedEncryptors.Add(symmetric);
-            _usedEncryptors.Add(asymmetric);
-            _pipeline.Use(symmetric);
-            return new PipelineForSendAlgorithm(this);
-        }
 
         public CryptographerPipelineBuilder ForGet()
         {
