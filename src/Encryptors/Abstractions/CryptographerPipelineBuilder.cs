@@ -12,11 +12,6 @@ namespace Encryptors.Abstractions
 
         public IEnumerable<IEncryptor> UsedEncryptors => _usedEncryptors;
 
-        public CryptographerPipelineBuilder ForGet()
-        {
-            return this;
-        }
-
         public CryptographerPipeline Build() =>
             _pipeline;
     }
