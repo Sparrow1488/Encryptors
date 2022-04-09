@@ -40,7 +40,12 @@
       "ProjectGuid": "02cb9630-853f-49c5-9c38-238965a3fe22",
       "DisplayName": "Encryptors.Examples.CryptographerPipelineBuilder",
       "ColorIndex": 6
+    },
+    "50db7a68-b5f6-4c2b-9733-fe456c625e1a": {
+      "ProjectGuid": "50db7a68-b5f6-4c2b-9733-fe456c625e1a",
+      "DisplayName": "Encryptors.Tests",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }
